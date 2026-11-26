@@ -1,0 +1,23 @@
+{
+  "name": "vapi-x402-api",
+  "version": "1.0.0",
+  "description": "A tiny x402-paywalled Web3 snapshot API (USDC on Base) — built for the vAPI Network 'List your API' quest",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@x402/core": "^2.32.0",
+    "@x402/evm": "^2.32.0",
+    "@x402/express": "^2.32.0",
+    "express": "^5.3.0"
+  }
+}
